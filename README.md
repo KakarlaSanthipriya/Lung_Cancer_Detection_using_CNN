@@ -32,20 +32,20 @@ Normal cases
 The dataset is available on Kaggle or other public repositories.
 
 ## Project Workflow
-# Data Collection: 
+### Data Collection: 
 Load images from the dataset.
 
-# Preprocessing:
+### Preprocessing:
 Resize images to 128x128.
 Convert images to grayscale.
 Normalize pixel values to [0, 1].
 Apply random oversampling to balance the dataset.
 
-# Model Building:
+### Model Building:
 Define a CNN model with Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers.
 Compile the model using the Adam optimizer and categorical crossentropy loss.
 
-# Training: 
+### Training: 
 Train the model on the preprocessed dataset.
 
 Evaluation:
@@ -53,7 +53,7 @@ Generate a classification report.
 Plot a confusion matrix.
 Visualize training and validation accuracy/loss.
 
-# Visualization:
+### Visualization:
 Display correctly classified images with true and predicted labels.
 
 ## Results
